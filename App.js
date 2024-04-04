@@ -7,12 +7,13 @@ import FooterComponent from './components/FooterComponent';
 
 export default function App() {
 
+
   return (
 
     <View style={styles.container}>
       <NavbarComponent />
-      <StoriesComponent />
-      {/* <PostComponent/> */}
+
+      <PostComponent />
       <FooterComponent />
     </View>
 
